@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ArduChrono" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ArduChrono" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ArduChrono" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../buttons/generic_funcs.cpp" />
+		<Unit filename="../interface/interface_fun.cpp" />
+		<Unit filename="../serial/serial_funcs.cpp" />
+		<Unit filename="../stove/stove_controls.cpp" />
+		<Unit filename="../stove/stove_info.cpp" />
+		<Unit filename="../temperatures/temperatures_fun.cpp" />
+		<Unit filename="../time/cicle_funcs.cpp" />
+		<Unit filename="../time/time_funcs.cpp" />
+		<Unit filename="CoreMain.cpp" />
+		<Unit filename="costants.h" />
+		<Unit filename="objects.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
